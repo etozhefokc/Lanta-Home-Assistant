@@ -1,0 +1,10 @@
+{
+  "name": "Lanta Home",
+  "content_in_root": true,
+  "filename": "manifest.json",
+  "country": ["RU"],
+  "domains": ["lanta_home"],
+  "homeassistant": "2024.1.0",
+  "iot_class": "Cloud Polling",
+  "render_readme": true
+}
