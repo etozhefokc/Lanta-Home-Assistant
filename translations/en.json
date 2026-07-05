@@ -1,0 +1,67 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Lanta Authorization",
+        "description": "Enter your registered phone number from the Lanta app, starting with 8 (no spaces or hyphens). After clicking Submit, call 8-800-222-06-68 from this number to complete the login.",
+        "data": {
+          "Phone": "Phone number"
+        }
+      }
+    },
+    "error": {
+      "timeout": "Confirmation timed out.",
+      "unknown": "An unknown error occurred."
+    },
+    "abort": {
+      "already_configured": "This phone number is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "balance": {
+        "name": "Balance"
+      },
+      "bonus": {
+        "name": "Bonus"
+      },
+      "account_link": {
+        "name": "Personal account"
+      },
+      "door_code": {
+        "name": "Intercom code"
+      }
+    },
+    "switch": {
+      "disable_plog": {
+        "name": "Keep event log"
+      },
+      "hidden_plog": {
+        "name": "Show event log to owner only"
+      },
+      "frs_disabled": {
+        "name": "Face recognition"
+      },
+      "voip": {
+        "name": "Receive calls in app"
+      },
+      "cms": {
+        "name": "Enable handset (intercom)"
+      },
+      "white_rabbit": {
+        "name": "White Rabbit mode"
+      },
+      "auto_open": {
+        "name": "Guest mode"
+      }
+    },
+    "button": {
+      "reset_code": {
+        "name": "Reset code"
+      },
+      "open_door": {
+        "name": "Door"
+      }
+    }
+  }
+}

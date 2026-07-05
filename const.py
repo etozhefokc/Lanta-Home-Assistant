@@ -1,0 +1,1 @@
+DOMAIN = "lanta_home"
